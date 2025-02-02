@@ -25,11 +25,10 @@ h1 {
   font-weight: 700;
   font-size: clamp(2rem, 1.75rem + 1.25vw, 2.75rem);
 }
-p{
+p {
   font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
-
 }
-a, {
+a {
   font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
   font-weight: 600;
 }
@@ -47,6 +46,7 @@ a, {
 }
 .burger-menu {
   width: 100%;
+  font-size:25px ;
   display: none;
   justify-content: flex-end;
 }
