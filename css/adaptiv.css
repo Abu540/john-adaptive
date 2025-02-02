@@ -16,4 +16,24 @@
     align-items: center;
     gap: 15px;
   }
+  .cart-top{
+    justify-content: center;
+  }
+  .cart-top a{
+    display: none;
+    justify-content: center;
+    
+  }
+  .works{
+    flex-direction: column;
+  }
+  .blog-content{
+    flex-direction: column;
+  }
+  .text-block{
+    justify-content: center;
+  }
+  .footer-img{
+    width: 100%;
+  }
 }

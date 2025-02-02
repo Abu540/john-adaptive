@@ -42,13 +42,15 @@ a {
   align-items: center;
   gap: 30px;
 }
-.header a {
-}
+
 .burger-menu {
   width: 100%;
-  font-size:25px ;
+  font-size: 25px;
   display: none;
   justify-content: flex-end;
+}
+#main {
+  padding-block: 50px;
 }
 .main {
   display: flex;
@@ -64,6 +66,10 @@ a {
   align-items: flex-start;
   gap: 20px;
 }
+.main img {
+  width: 100%;
+  max-width: 370px;
+}
 button {
   border-radius: 4px;
   padding: 6px 15px;
@@ -71,4 +77,90 @@ button {
   background-color: #ff6464;
   border: none;
   cursor: pointer;
+}
+#works {
+  background-color: #edf7fa;
+  padding-block: 20px;
+}
+.cart-top {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+}
+.cart-top a {
+  color: #00a8cc;
+}
+.works {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  gap: 15px;
+}
+.cart-year {
+  display: flex;
+  gap: 15px;
+}
+.cart {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+}
+#blog {
+  padding-block: 30px;
+}
+.text-block {
+  padding-bottom: 20px;
+}
+
+.blog-content {
+  display: flex;
+  gap: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.box-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.box-line a {
+  font-weight: 400;
+  color: #8695a4;
+}
+.box button {
+  width: 100%;
+  max-width: 60px;
+  border-radius: 90%;
+  border: none;
+  background-color: #142850;
+}
+.box p {
+  width: 100%;
+  max-width: 570px;
+}
+.line {
+  width: 850px;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+.footer-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
